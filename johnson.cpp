@@ -38,7 +38,7 @@ mt19937_64 rng(chrono::steady_clock::now().time_since_epoch().count());
 
 ///__builtin_popcount(x)
 
-ifstream cin("output2.in");
+ifstream cin("input2.in");
 ofstream cout("date.out");
 
 vector<vector<pair<int,int>>> G;
